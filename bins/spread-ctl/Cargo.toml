@@ -1,0 +1,9 @@
+[package]
+name = "spread-ctl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../../crates/common" }
+shm = { path = "../../crates/shm" }
+anyhow = { workspace = true }

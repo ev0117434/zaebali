@@ -1,0 +1,11 @@
+[package]
+name = "shm-init"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../../crates/common" }
+shm = { path = "../../crates/shm" }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }

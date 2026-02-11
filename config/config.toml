@@ -33,7 +33,7 @@ notification_mode = "eventfd"
 eventfd_coalesce_us = 200
 
 [discovery]
-validation_timeout_sec = 30
+validation_timeout_sec = 180
 quote_filter = ["USDT"]
 min_status = "TRADING"
 cron_interval_hours = 6

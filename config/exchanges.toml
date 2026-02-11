@@ -1,0 +1,39 @@
+[[exchange]]
+name = "binance"
+rest_spot = "https://api.binance.com"
+rest_futures = "https://fapi.binance.com"
+ws_spot = "wss://stream.binance.com:9443/stream"
+ws_futures = "wss://fstream.binance.com/stream"
+max_ws_subscriptions = 200
+instruments_path_spot = "/api/v3/exchangeInfo"
+instruments_path_futures = "/fapi/v1/exchangeInfo"
+
+[[exchange]]
+name = "bybit"
+rest_spot = "https://api.bybit.com"
+rest_futures = "https://api.bybit.com"
+ws_spot = "wss://stream.bybit.com/v5/public/spot"
+ws_futures = "wss://stream.bybit.com/v5/public/linear"
+max_ws_subscriptions = 200
+instruments_path_spot = "/v5/market/instruments-info?category=spot"
+instruments_path_futures = "/v5/market/instruments-info?category=linear"
+
+[[exchange]]
+name = "okx"
+rest_spot = "https://www.okx.com"
+rest_futures = "https://www.okx.com"
+ws_spot = "wss://ws.okx.com:8443/ws/v5/public"
+ws_futures = "wss://ws.okx.com:8443/ws/v5/public"
+max_ws_subscriptions = 200
+instruments_path_spot = "/api/v5/public/instruments?instType=SPOT"
+instruments_path_futures = "/api/v5/public/instruments?instType=SWAP"
+
+[[exchange]]
+name = "mexc"
+rest_spot = "https://api.mexc.com"
+rest_futures = "https://contract.mexc.com"
+ws_spot = "wss://wbs.mexc.com/ws"
+ws_futures = "wss://contract.mexc.com/edge"
+max_ws_subscriptions = 200
+instruments_path_spot = "/api/v3/exchangeInfo"
+instruments_path_futures = "/api/v1/contract/detail"

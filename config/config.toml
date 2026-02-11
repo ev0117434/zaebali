@@ -1,0 +1,43 @@
+[general]
+log_level = "info"
+output_dir = "output"
+generated_dir = "generated"
+shm_seqs = "spread-scanner-seqs"
+shm_data = "spread-scanner-data"
+shm_bitmap = "spread-scanner-bitmap"
+shm_events = "spread-scanner-events"
+shm_health = "spread-scanner-health"
+shm_control = "spread-scanner-control"
+
+[spread]
+min_spread_threshold_pct = 0.3
+staleness_max_ms = 5000
+converge_threshold_pct = 0.05
+
+[tracker]
+snapshot_interval_ms = 200
+tracking_duration_hours = 3
+delta_write_threshold_pct = 0.01
+heartbeat_write_sec = 60
+max_file_size_mb = 100
+
+[ws]
+max_subscriptions_per_conn = 200
+ping_interval_sec = 20
+heartbeat_timeout_sec = 30
+reconnect_base_ms = 100
+reconnect_max_ms = 30000
+
+[engine]
+notification_mode = "eventfd"
+eventfd_coalesce_us = 200
+
+[discovery]
+validation_timeout_sec = 30
+quote_filter = ["USDT"]
+min_status = "TRADING"
+cron_interval_hours = 6
+
+[monitoring]
+prometheus_enabled = false
+stats_log_interval_sec = 10

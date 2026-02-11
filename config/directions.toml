@@ -1,0 +1,71 @@
+[[direction]]
+id = 0
+spot_source = 6       # OkxSpot
+futures_source = 5    # MexcFutures
+name = "okx_spot_mexc_futures"
+
+[[direction]]
+id = 1
+spot_source = 6       # OkxSpot
+futures_source = 3    # BybitFutures
+name = "okx_spot_bybit_futures"
+
+[[direction]]
+id = 2
+spot_source = 6       # OkxSpot
+futures_source = 1    # BinanceFutures
+name = "okx_spot_binance_futures"
+
+[[direction]]
+id = 3
+spot_source = 4       # MexcSpot
+futures_source = 7    # OkxFutures
+name = "mexc_spot_okx_futures"
+
+[[direction]]
+id = 4
+spot_source = 4       # MexcSpot
+futures_source = 3    # BybitFutures
+name = "mexc_spot_bybit_futures"
+
+[[direction]]
+id = 5
+spot_source = 4       # MexcSpot
+futures_source = 1    # BinanceFutures
+name = "mexc_spot_binance_futures"
+
+[[direction]]
+id = 6
+spot_source = 2       # BybitSpot
+futures_source = 7    # OkxFutures
+name = "bybit_spot_okx_futures"
+
+[[direction]]
+id = 7
+spot_source = 2       # BybitSpot
+futures_source = 5    # MexcFutures
+name = "bybit_spot_mexc_futures"
+
+[[direction]]
+id = 8
+spot_source = 2       # BybitSpot
+futures_source = 1    # BinanceFutures
+name = "bybit_spot_binance_futures"
+
+[[direction]]
+id = 9
+spot_source = 0       # BinanceSpot
+futures_source = 7    # OkxFutures
+name = "binance_spot_okx_futures"
+
+[[direction]]
+id = 10
+spot_source = 0       # BinanceSpot
+futures_source = 5    # MexcFutures
+name = "binance_spot_mexc_futures"
+
+[[direction]]
+id = 11
+spot_source = 0       # BinanceSpot
+futures_source = 3    # BybitFutures
+name = "binance_spot_bybit_futures"

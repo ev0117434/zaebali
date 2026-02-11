@@ -1,0 +1,11 @@
+[package]
+name = "pair-discovery"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../../crates/common" }
+discovery = { path = "../../crates/discovery" }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }

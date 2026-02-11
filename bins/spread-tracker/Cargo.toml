@@ -1,0 +1,12 @@
+[package]
+name = "spread-tracker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../../crates/common" }
+shm = { path = "../../crates/shm" }
+tracker = { path = "../../crates/tracker" }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }

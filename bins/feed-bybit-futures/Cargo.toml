@@ -1,0 +1,12 @@
+[package]
+name = "feed-bybit-futures"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../../crates/common" }
+shm = { path = "../../crates/shm" }
+feeds = { path = "../../crates/feeds" }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }

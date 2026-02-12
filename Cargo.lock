@@ -49,7 +49,10 @@ name = "discovery"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "bincode",
  "common",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
